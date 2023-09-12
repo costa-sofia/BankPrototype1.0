@@ -1,3 +1,4 @@
+import java.sql.*;
 public class Account
 {
     int accountNumber;
@@ -11,7 +12,7 @@ public class Account
     {
         this.accountNumber= accountNumber;
         this.accountHolder= accountHolder;
-        this.accountBalance=accountBalance;
+        this.accountBalance= accountBalance;
 
     }
 
@@ -43,7 +44,6 @@ public class Account
     {
         System.out.println("Account Number: " + this.accountNumber + " | Account Holder: "+ this.accountHolder + " | Balance: $" + this.accountBalance);
     }
-
 
 
 }

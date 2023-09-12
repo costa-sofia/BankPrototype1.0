@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class Bank
 {
-    public static void main (String[] args)
-    {
+    public static void main (String[] args) throws Exception {
         Account acc = null; //account reference
         Scanner reader = new Scanner(System.in);
         int operationOpt;
@@ -47,10 +46,6 @@ public class Bank
                         System.out.println("|----Account created  successfully----|");
                         System.out.println("|---Thank you for choosing our bank---|");
                         System.out.println("|-------------------------------------|");
-
-
-
-
 
                     }
                     else
